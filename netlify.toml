@@ -1,4 +1,2 @@
-[build]
-  command = "npm run build" # Or the command that triggers Webpack to build your project
-  publish = "dist"          # This matches the output directory in your Webpack config
-  node_version = "18.17.1"   # Specify a stable Node version
+[build.environment]
+  NODE_VERSION = "18.17.1"
